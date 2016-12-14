@@ -3,9 +3,6 @@ package com.example.root.smartbackpack.Data.Model;
 import java.net.PasswordAuthentication;
 import java.util.Date;
 
-/**
- * Created by root on 12/6/16.
- */
 
 public class Bag {
     private String bagName;
