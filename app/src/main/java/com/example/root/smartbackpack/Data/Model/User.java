@@ -11,14 +11,17 @@ public class User {
     private int tpnumber;
     private final String username;     //can not change
     private String password;
+    private String email;
 
-    public User(String fname, String lname, String adress, String username, int tpnumber, String password) {
+    public User(String fname, String lname, String adress, String username, int tpnumber, String password, String email) {
         this.fname = fname;
         this.lname = lname;
         this.address = adress;
         this.username = username;
         this.tpnumber = tpnumber;
         this.password = password;
+        this.email =email;
+
     }
 
     public String getFname() {
@@ -55,6 +58,10 @@ public class User {
 
     public String getPassword() {
         return password;
+    }
+
+    public String getEmail() {
+        return email;
     }
     public void setPassword(String password) {
         this.password = password;
