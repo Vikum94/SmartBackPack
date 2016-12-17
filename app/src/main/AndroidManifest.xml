@@ -22,8 +22,11 @@
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter><!-- ATTENTION: This intent was auto-generated. Follow instructions at
-  https://g.co/AppIndexing/AndroidStudio to publish your URLs. -->
+            </intent-filter>
+            <!--
+ ATTENTION: This intent was auto-generated. Follow instructions at
+  https://g.co/AppIndexing/AndroidStudio to publish your URLs.
+            -->
 
         </activity>
         <activity android:name=".Data.UI.MainActivity" />
@@ -43,10 +46,13 @@
             android:name=".Data.UI.MapsActivity"
             android:label="@string/title_activity_maps" />
         <activity android:name=".Data.UI.SignupActivity" />
-
         <activity
             android:name=".Data.UI.AddBagActivity"
             android:label="@string/title_activity_add_bag"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Data.UI.BagActivity"
+            android:label="@string/title_activity_bag"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 

@@ -2,4 +2,5 @@
     <string name="app_name">Smart BackPack</string>
     <string name="title_activity_maps">Map</string>
     <string name="title_activity_add_bag">AddBagActivity</string>
+    <string name="title_activity_bag">BagActivity</string>
 </resources>
