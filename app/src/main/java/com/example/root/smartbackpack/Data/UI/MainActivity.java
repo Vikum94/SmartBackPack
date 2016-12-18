@@ -45,5 +45,13 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        testBag.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, BagActivity.class);
+                startActivity(intent);
+            }
+        });
+
     }
 }
